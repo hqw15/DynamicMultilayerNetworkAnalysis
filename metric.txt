@@ -1,0 +1,131 @@
+==================== Basic info (HCs and Patients) =======================
+Num of HCs:31,  Num of Patients:46
+Age: {'pvalue': 0.09612342777608776, 'HCs_Age_mean': 56.903225806451616, 'HCs_Age_std': 5.366291677533591, 'Patients_Age_mean': 60.0, 'Patients_Age_std': 10.419463392675476, 'method': 'ttest_ind', 'statistic': -1.6863042140062885}
+Sex: {'pvalue': (0.2268886482741228,), 'HCs_Sex_(male : female)': [18, 13], 'Patients_Sex_(male : female)': [34, 12], 'method': 'chi2_contingency_test'}
+
+
+==================== modularity =======================
+{'pvalue': 0.009233801068303259, 'HCs_mean': 0.1811909747419355, 'HCs_std': 0.04518561718731954, 'Patients_mean': 0.22583233869565217, 'Patients_std': 0.09709594894925422, 'method': 'ttest_ind', 'statistic': -2.679528847606622}
+{'pvalue': 0.9606800999193579, 'r': -0.01088664087528548, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.78892665935839, 'r': -0.05906546645625795, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.8620318526529497, 'r': -0.038363527075402006, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+
+
+==================== community_num =======================
+{'pvalue': 0.05503086816205034, 'HCs_mean': 5.361290322580644, 'HCs_std': 0.6167957885273353, 'Patients_mean': 5.731739130434783, 'Patients_std': 0.9134699832002906, 'method': 'ttest_ind', 'statistic': -1.9490365425481222}
+{'pvalue': 0.541112988337338, 'r': 0.13434154195770934, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.007803294570267934, 'r': 0.540119257523723, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.050163928151753884, 'r': 0.41297860544119647, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+
+
+==================== community_size =======================
+{'pvalue': 0.14923259610971915, 'HCs_mean': 2114.3391705069125, 'HCs_std': 251.8750985433019, 'Patients_mean': 2004.2517221908533, 'Patients_std': 359.96824618099106, 'method': 'ttest_ind', 'statistic': 1.4572106743866031}
+{'pvalue': 0.4319638849206079, 'r': -0.17223271969434376, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.0014679128786646222, 'r': -0.623839262171833, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.017211488417676477, 'r': -0.49155293957511575, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+
+
+==================== stationarity =======================
+{'pvalue': 0.22159216375079374, 'HCs_mean': 0.9058829635876179, 'HCs_std': 0.01238467392380952, 'Patients_mean': 0.9012542225845124, 'Patients_std': 0.017957590223492963, 'method': 'ttest_ind', 'statistic': 1.2325535773104406}
+{'pvalue': 0.16790261050103067, 'r': -0.2975674224975642, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.001096678861059949, 'r': -0.6363726629070076, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.0027659512301813523, 'r': -0.5946507687413867, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+
+
+==================== flexibility =======================
+Network: Sensorimotor System
+{'pvalue': 0.03842373170360498, 'HCs_mean': 0.02492123656725807, 'HCs_std': 0.00742822040563235, 'Patients_mean': 0.029322644923478258, 'Patients_std': 0.010653937668627978, 'method': 'ttest_ind', 'statistic': -2.107494502366782, 'pvalue_fdr': 0.06403955283934164}
+{'pvalue': 0.25187076504859623, 'r': 0.24901890314683164, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.049460397970145675, 'r': 0.4141354585851859, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.04545763314825434, 'r': 0.42097257704442764, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Visual System
+{'pvalue': 0.3918960181855531, 'HCs_mean': 0.031918202769124424, 'HCs_std': 0.010370670541447238, 'Patients_mean': 0.02996014492717391, 'Patients_std': 0.009144697948596977, 'method': 'ttest_ind', 'statistic': 0.8611576819555864, 'pvalue_fdr': 1.9594800909277654}
+{'pvalue': 0.0808572951719063, 'r': 0.3715690618587877, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.08687928267091197, 'r': 0.36491556024285016, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.0181708691009561, 'r': 0.48795876451746206, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Attention System
+{'pvalue': 0.019862663629107113, 'HCs_mean': 0.028432198342652332, 'HCs_std': 0.007271839402547833, 'Patients_mean': 0.033598631243393726, 'Patients_std': 0.010328027995389798, 'method': 'ttest_ind', 'statistic': -2.3798395265097887, 'pvalue_fdr': 0.024828329536383892}
+{'pvalue': 0.4426889994695866, 'r': 0.16830712181574858, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.005719446766838294, 'r': 0.5574350428742718, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.0283723061457481, 'r': 0.4569633528332972, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Default Mode System
+{'pvalue': 0.0008555234000846574, 'HCs_mean': 0.0260385304625448, 'HCs_std': 0.008501892788339993, 'Patients_mean': 0.03671477455881642, 'Patients_std': 0.029533043204508624, 'method': 'ranksums', 'statistic': -3.3341765395187304, 'pvalue_fdr': 0.0008555234000846574}
+{'pvalue': 0.6709066055221807, 'r': 0.09362468821760164, 'method': 'spearmanr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.13270054612024673, 'r': 0.3230483092599116, 'method': 'spearmanr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.3089818064293791, 'r': 0.2218476429859384, 'method': 'spearmanr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Subcortical  System
+{'pvalue': 0.08535461364656494, 'HCs_mean': 0.031951344062741936, 'HCs_std': 0.008133424808354843, 'Patients_mean': 0.03584112319315218, 'Patients_std': 0.010282121288336336, 'method': 'ttest_ind', 'statistic': -1.7434402315018573, 'pvalue_fdr': 0.21338653411641234}
+{'pvalue': 0.43922204807033116, 'r': 0.16957049351290632, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.000977202587525242, 'r': 0.6411862974907817, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.014663620707584252, 'r': 0.501957765221732, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Whole Head
+{'pvalue': 0.022422598462597244, 'HCs_mean': 0.02849755077623655, 'HCs_std': 0.006251019181715725, 'Patients_mean': 0.03320398550836474, 'Patients_std': 0.00983465494398776, 'method': 'ttest_ind', 'statistic': -2.331367434158682}
+{'pvalue': 0.38190345741584975, 'r': 0.19129970176495298, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.011377522290733081, 'r': 0.5178231776173076, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.03330505601543284, 'r': 0.4451213392944263, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+
+
+==================== cohesion =======================
+Network: Sensorimotor System
+{'pvalue': 0.3609010274077624, 'HCs_mean': 0.07060206017891026, 'HCs_std': 0.02094642530820458, 'Patients_mean': 0.07579777128242601, 'Patients_std': 0.025862945656237615, 'method': 'ttest_ind', 'statistic': -0.9192709311714454, 'pvalue_fdr': 0.902252568519406}
+{'pvalue': 0.046377449094904766, 'r': 0.41936113867256464, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.02538706798627709, 'r': 0.46495295407505094, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.004155872997745984, 'r': 0.5743294595190928, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Visual System
+{'pvalue': 0.47878971543625004, 'HCs_mean': 0.0758587305890098, 'HCs_std': 0.02226419219299898, 'Patients_mean': 0.07220105433477739, 'Patients_std': 0.021522738146636012, 'method': 'ttest_ind', 'statistic': 0.7118116716898155, 'pvalue_fdr': 2.3939485771812503}
+{'pvalue': 0.04828107051576067, 'r': 0.4161036924605363, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.0064292102095932875, 'r': 0.5510209211986831, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.0013941151067786252, 'r': 0.6260958633820607, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Attention System
+{'pvalue': 0.1572256750870294, 'HCs_mean': 0.07101171651456281, 'HCs_std': 0.02067101654673903, 'Patients_mean': 0.07891466731620182, 'Patients_std': 0.02521660035862402, 'method': 'ttest_ind', 'statistic': -1.428757279468518, 'pvalue_fdr': 0.19653209385878673}
+{'pvalue': 0.16803744192333223, 'r': 0.2974774085314117, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.006963597219245114, 'r': 0.5465702842717273, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.007869753016401767, 'r': 0.5396336952268997, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Default Mode System
+{'pvalue': 0.08623878904357192, 'HCs_mean': 0.06978916297701876, 'HCs_std': 0.023046060192722456, 'Patients_mean': 0.07893313847278041, 'Patients_std': 0.021850810089003556, 'method': 'ttest_ind', 'statistic': -1.7384302162061553, 'pvalue_fdr': 0.08623878904357192}
+{'pvalue': 0.6743236963570222, 'r': 0.0925973804127671, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.004597201749695505, 'r': 0.569084880080114, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.05567071950529754, 'r': 0.4043326599828161, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Subcortical  System
+{'pvalue': 0.21165100703616907, 'HCs_mean': 0.07131743019788558, 'HCs_std': 0.017691836684187407, 'Patients_mean': 0.07729813664596273, 'Patients_std': 0.021669881002692886, 'method': 'ttest_ind', 'statistic': -1.2597906853876133, 'pvalue_fdr': 0.3527516783936151}
+{'pvalue': 0.355182418996543, 'r': 0.2020581666998255, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.0010037024514117513, 'r': 0.6400768164314046, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.01023574690935027, 'r': 0.5242253025830645, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Whole Head
+{'pvalue': 0.25230285604682207, 'HCs_mean': 0.07149808740700578, 'HCs_std': 0.01785857494390136, 'Patients_mean': 0.07682214914951487, 'Patients_std': 0.02069170269604258, 'method': 'ttest_ind', 'statistic': -1.1536598759337628}
+{'pvalue': 0.1456203472057829, 'r': 0.31319575650268927, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.002020762686162797, 'r': 0.6094630051703939, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.003291087013950062, 'r': 0.586133662716122, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+
+
+==================== disjointedness =======================
+Network: Sensorimotor System
+{'pvalue': 0.046631321594939025, 'HCs_mean': 0.0071759284358904885, 'HCs_std': 0.0024474689552275355, 'Patients_mean': 0.00855078553160395, 'Patients_std': 0.003147786518450862, 'method': 'ttest_ind', 'statistic': -2.0230595394173965, 'pvalue_fdr': 0.07771886932489837}
+{'pvalue': 0.7921640584198688, 'r': 0.05813968498377288, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.24186034331633702, 'r': 0.25417557686722675, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.3958097662608583, 'r': 0.18587047085034905, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Visual System
+{'pvalue': 0.5627421950705387, 'HCs_mean': 0.009982573674631142, 'HCs_std': 0.0036635530399612448, 'Patients_mean': 0.009509629938932096, 'Patients_std': 0.0033072833493608517, 'method': 'ttest_ind', 'statistic': 0.5813582671141738, 'pvalue_fdr': 2.813710975352693}
+{'pvalue': 0.49491677874235607, 'r': 0.14986345239133086, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.7827134473078698, 'r': 0.06084494656741805, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.5000153221667095, 'r': 0.14811689906545916, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Attention System
+{'pvalue': 0.016025018825276245, 'HCs_mean': 0.00888437095268215, 'HCs_std': 0.002238377286267322, 'Patients_mean': 0.010539520155888445, 'Patients_std': 0.0032010386278036322, 'method': 'ttest_ind', 'statistic': -2.464132553013814, 'pvalue_fdr': 0.020031273531595305}
+{'pvalue': 0.5805911684215297, 'r': -0.12155891532971572, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.12638473715393492, 'r': 0.32811645362532726, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.6133072407222845, 'r': 0.11125042596026707, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Default Mode System
+{'pvalue': 0.0067195440146342236, 'HCs_mean': 0.007883497485015514, 'HCs_std': 0.003071838560655908, 'Patients_mean': 0.009878212154426991, 'Patients_std': 0.0030164542212833675, 'method': 'ttest_ind', 'statistic': -2.7878401701651567, 'pvalue_fdr': 0.0067195440146342236}
+{'pvalue': 0.9805063045322427, 'r': -0.005395761322908789, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.11357953430603857, 'r': 0.3389824990314347, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.34605851225533235, 'r': 0.2058389745713793, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Network: Subcortical  System
+{'pvalue': 0.08458257538829175, 'HCs_mean': 0.01103767958796422, 'HCs_std': 0.0028916370642261754, 'Patients_mean': 0.012336682499086593, 'Patients_std': 0.003323107046930086, 'method': 'ttest_ind', 'statistic': -1.7478499648156742, 'pvalue_fdr': 0.21145643847072937}
+{'pvalue': 0.6814616673014491, 'r': 0.09045743280922618, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.00555489846523655, 'r': 0.5590163301217816, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.06000276972849308, 'r': 0.3979840006563941, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
+Whole Head
+{'pvalue': 0.0074379452986257965, 'HCs_mean': 0.008953886931116536, 'HCs_std': 0.0017624969370497055, 'Patients_mean': 0.010204481792717091, 'Patients_std': 0.0020359718897173746, 'method': 'ttest_ind', 'statistic': -2.7513029987082263}
+{'pvalue': 0.799920394251959, 'r': 0.05592547586573821, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-U'}
+{'pvalue': 0.025215440241083114, 'r': 0.4654347204825442, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA-L'}
+{'pvalue': 0.13773101797382067, 'r': 0.3191340346270453, 'method': 'pearsonr', 'X': 'Patients', 'Y': 'FMA'}
