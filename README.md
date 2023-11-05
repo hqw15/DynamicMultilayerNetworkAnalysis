@@ -1,3 +1,3 @@
 # DynamicMultilayerNetworkAnalysis
 
-![avatar][/img/main.png]
+![avatar][img/main.png]
