@@ -4,8 +4,7 @@
 
 ## Introduction
 
-This repo is a tool designed to process [multilayer community network results](https://github.com/GenLouvain/GenLouvain). It provides various metrics and analyses, including modularity, module size, module count, stability, flexibility, cohesion, and separation. Additionally, it calculates the differences between these metrics for patients and healthy individuals and examines their correlation with clinical medical scores for patients.
-
+This repository serves as a dedicated tool for the processing of results obtained from the [multilayer community network(GenLouvain)](https://github.com/GenLouvain/GenLouvain). It offers a range of metrics and analyses, encompassing modularity, module size, module number, stationarity, flexibility, cohesion, and disjointedness. Moreover, the tool computes the variations in these metrics between Patients and Healthy Controls (HCs) and calculates the correlation of these metrics with clinical medical scores in the Patients.
 
 ## Data
 
@@ -22,7 +21,3 @@ Follow these steps to use the code:
 1. Run `python3 preprocessing.py`. This will generate results related to modularity, module size, module count, stability, flexibility, cohesion, and separation for both patients and healthy individuals. The results will be saved in `/data/pre_result`.
 
 2. Run `python3 main.py`. This will calculate the differences in the metrics obtained in step 1 between healthy individuals and patients. It will also examine the correlation between the patient's metrics and clinical medical scores.
-
-
-
-- data: 
