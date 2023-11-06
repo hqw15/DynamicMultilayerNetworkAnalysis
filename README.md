@@ -11,7 +11,7 @@ This repo is a tool designed to process [multilayer community network results](h
 
 To utilize this code, you'll need to download the preprocessed data files to the `/data` directory. You have two options:
 
-1. **Manual Download**: Download the processed data files and save them in the `/data` directory.
+1. **Manual Download**: Download the [processed data files](https://1drv.ms/u/s!AiRytlmhzEl-hFIAeB9bNqZMqbpy?e=0mK70I) and save them in the `/data` directory.
 
 2. **Use the Provided Archive**: Alternatively, you can extract the contents of `/data/result.tar`. This archive includes data files related to modularity, flexibility, and the partition matrix for experiments on both healthy individuals and patients.
 
