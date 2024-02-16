@@ -1,0 +1,62 @@
+==================== Basic info (HCs and Patients) =======================
+Num of HCs:31,  Num of Patients:30
+Age: {'pvalue_fdr': 0.1807002827506619, 'HCs_Age_mean': 56.903225806451616, 'HCs_Age_std': 5.366291677533591, 'Patients_Age_mean': 59.96666666666667, 'Patients_Age_std': 10.910188917806245, 'method': 'ttest_ind', 'statistic': -1.3612654780153102}
+Sex: {'pvalue': (0.20249506418813762,), 'HCs_Sex_(male : female)': [18, 13], 'Patients_Sex_(male : female)': [23, 7], 'method': 'chi2_contingency_test'}
+
+
+==================== modularity =======================
+{'pvalue_fdr': 0.014347702078881829, 'HCs_mean': 0.1811909747419355, 'HCs_std': 0.04518561718731954, 'Patients_mean': 0.2316294316666667, 'Patients_std': 0.0964578495890236, 'method': 'ttest_ind', 'statistic': -2.5576942103982443}
+
+
+==================== community_num =======================
+{'pvalue_fdr': 0.06364689453265308, 'HCs_mean': 5.361290322580644, 'HCs_std': 0.6167957885273353, 'Patients_mean': 5.735333333333333, 'Patients_std': 0.883744809822886, 'method': 'ttest_ind', 'statistic': -1.890195175567544}
+
+
+==================== community_size =======================
+{'pvalue_fdr': 0.1630819276860818, 'HCs_mean': 2114.3391705069125, 'HCs_std': 251.8750985433019, 'Patients_mean': 2001.9514285714288, 'Patients_std': 352.54667939298537, 'method': 'ttest_ind', 'statistic': 1.4124119415210508}
+
+
+
+==================== flexibility =======================
+Network: Sensorimotor System
+{'pvalue_fdr': 0.0593567035305144, 'HCs_mean': 0.02492123656725807, 'HCs_std': 0.00742822040563235, 'Patients_mean': 0.029939166654, 'Patients_std': 0.011116489907769924, 'method': 'ttest_ind', 'statistic': -2.0316113626650645}
+Network: Visual System
+{'pvalue_fdr': 3.356066960266695, 'HCs_mean': 0.031918202769124424, 'HCs_std': 0.010370670541447238, 'Patients_mean': 0.030777380952380955, 'Patients_std': 0.010162510363182204, 'method': 'ttest_ind', 'statistic': 0.42661365499104426}
+Network: Attention System
+{'pvalue_fdr': 0.09398186235874263, 'HCs_mean': 0.028432198342652332, 'HCs_std': 0.007271839402547833, 'Patients_mean': 0.03309845680264815, 'Patients_std': 0.010849366770632115, 'method': 'ttest_ind', 'statistic': -1.9462729331095128}
+Network: Default Mode System
+{'pvalue_fdr': 0.002020404333261378, 'HCs_mean': 0.0260385304625448, 'HCs_std': 0.008501892788339993, 'Patients_mean': 0.03904382716240741, 'Patients_std': 0.03584129881441106, 'method': 'ranksums', 'statistic': -3.087216433451322}
+Network: Subcortical  System
+{'pvalue_fdr': 0.17521559429418046, 'HCs_mean': 0.031951344062741936, 'HCs_std': 0.008133424808354843, 'Patients_mean': 0.036406388891500004, 'Patients_std': 0.010319872430381885, 'method': 'ttest_ind', 'statistic': -1.8448112568918875}
+Whole Head
+{'pvalue_fdr': 0.01980744743417805, 'HCs_mean': 0.02849755077623655, 'HCs_std': 0.006251019181715725, 'Patients_mean': 0.033959506173492596, 'Patients_std': 0.010749377363474725, 'method': 'ttest_ind', 'statistic': -2.3951328891470256}
+
+
+==================== cohesion =======================
+Network: Sensorimotor System
+{'pvalue_fdr': 0.4632942151632011, 'HCs_mean': 0.07060206017891026, 'HCs_std': 0.02094642530820458, 'Patients_mean': 0.0790826330532213, 'Patients_std': 0.027335083654630297, 'method': 'ttest_ind', 'statistic': -1.340203467964264}
+Network: Visual System
+{'pvalue_fdr': 3.3257355904597063, 'HCs_mean': 0.0758587305890098, 'HCs_std': 0.02226419219299898, 'Patients_mean': 0.07329971988795518, 'Patients_std': 0.022921904099001657, 'method': 'ttest_ind', 'statistic': 0.43500329911886826}
+Network: Attention System
+{'pvalue_fdr': 0.26861202924028454, 'HCs_mean': 0.07101171651456281, 'HCs_std': 0.02067101654673903, 'Patients_mean': 0.07987394957983193, 'Patients_std': 0.026981810360227558, 'method': 'ttest_ind', 'statistic': -1.418976901361751}
+Network: Default Mode System
+{'pvalue_fdr': 0.09031403829801475, 'HCs_mean': 0.06978916297701876, 'HCs_std': 0.023046060192722456, 'Patients_mean': 0.08029474011826952, 'Patients_std': 0.02381585517002238, 'method': 'ttest_ind', 'statistic': -1.7219712109005718}
+Network: Subcortical  System
+{'pvalue_fdr': 0.1942941804910095, 'HCs_mean': 0.07131743019788558, 'HCs_std': 0.017691836684187407, 'Patients_mean': 0.07895714285714286, 'Patients_std': 0.022840395428881957, 'method': 'ttest_ind', 'statistic': -1.4389982091069393}
+Whole Head
+{'pvalue_fdr': 0.18072189328860275, 'HCs_mean': 0.07149808740700578, 'HCs_std': 0.01785857494390136, 'Patients_mean': 0.07855586679116092, 'Patients_std': 0.022009911477760175, 'method': 'ttest_ind', 'statistic': -1.3545620882332456}
+
+
+==================== disjointedness =======================
+Network: Sensorimotor System
+{'pvalue_fdr': 0.2608284189336995, 'HCs_mean': 0.0071759284358904885, 'HCs_std': 0.0024474689552275355, 'Patients_mean': 0.00839915966386555, 'Patients_std': 0.003208817963477542, 'method': 'ttest_ind', 'statistic': -1.6496395678209124}
+Network: Visual System
+{'pvalue_fdr': 4.824194362954764, 'HCs_mean': 0.009982573674631142, 'HCs_std': 0.0036635530399612448, 'Patients_mean': 0.010024409763905565, 'Patients_std': 0.0035928542213382953, 'method': 'ttest_ind', 'statistic': -0.04426975441626676}
+Network: Attention System
+{'pvalue_fdr': 0.14075472151305096, 'HCs_mean': 0.00888437095268215, 'HCs_std': 0.002238377286267322, 'Patients_mean': 0.010206037970743854, 'Patients_std': 0.0033915456304999592, 'method': 'ttest_ind', 'statistic': -1.76042118170173}
+Network: Default Mode System
+{'pvalue_fdr': 0.011361488080022077, 'HCs_mean': 0.007883497485015514, 'HCs_std': 0.003071838560655908, 'Patients_mean': 0.00988608776844071, 'Patients_std': 0.002803062300251563, 'method': 'ttest_ind', 'statistic': -2.6132465151886275}
+Network: Subcortical  System
+{'pvalue_fdr': 0.0895638067894054, 'HCs_mean': 0.01103767958796422, 'HCs_std': 0.0028916370642261754, 'Patients_mean': 0.01251148459383754, 'Patients_std': 0.003273486767894621, 'method': 'ttest_ind', 'statistic': -1.8343160368563403}
+Whole Head
+{'pvalue_fdr': 0.01439165977158388, 'HCs_mean': 0.008953886931116536, 'HCs_std': 0.0017624969370497055, 'Patients_mean': 0.01022458761282291, 'Patients_std': 0.002098175960056645, 'method': 'ttest_ind', 'statistic': -2.5218990466999305}
