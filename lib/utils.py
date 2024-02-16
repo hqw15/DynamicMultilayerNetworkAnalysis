@@ -1,8 +1,16 @@
+import re
 import os
 import numpy as np
 import scipy.stats as stats
 from scipy.stats import pearsonr, spearmanr
 
+def extract_p(summary):
+    summary = str(summary).replace(' ','')
+    f_pattern = r'F-statistic:(\d+\.\d+)'
+    p_pattern = r'Prob\(F-statistic\):(\d+\.\d+)'
+    f_matches = re.findall(f_pattern, summary)
+    p_matches = re.findall(p_pattern, summary)
+    return (f_matches, p_matches)
 
 def mkdir(dir):
     if not os.path.exists(dir):
@@ -44,8 +52,23 @@ def independent_sample_test(da, db, name_a='', name_b=''):
         lres = stats.levene(da, db)
         res = stats.ttest_ind(a=da, b=db, equal_var=lres.pvalue > 0.05)
         method = 'ttest_ind'
+
+    import pandas as pd
+    import statsmodels.formula.api as smf
+
+    # 将数据组合成 DataFrame
+    df_a = pd.DataFrame({'group': 'A', 'score': da})
+    df_b = pd.DataFrame({'group': 'B', 'score': db})
+    df = pd.concat([df_a, df_b], ignore_index=True)
+
+    # 使用公式模型
+    model = smf.ols('score ~ group', data=df).fit()
+    result = '\n' + str(model.summary()) + '\n'
+    print (result)
+
     return {
-        'pvalue': res.pvalue,
+        # '(F-统计值 and P(矫正))': extract_p(result),
+        'pvalue_fdr': res.pvalue,
         f'{name_a}_mean': np.mean(da),
         f'{name_a}_std': np.std(da),
         f'{name_b}_mean': np.mean(db),

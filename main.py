@@ -92,8 +92,8 @@ class Metric:
         hp_test_res, corr_test_res = self._metric(h_data, p_data)
 
         self.logging_writer.write(str(hp_test_res) + '\n')
-        for res in corr_test_res:
-            self.logging_writer.write(str(res) + '\n')
+        # for res in corr_test_res:
+        #     self.logging_writer.write(str(res) + '\n')
 
     def measure_other_metric(self, name):
         self.logging_writer.write(
@@ -115,7 +115,7 @@ class Metric:
                 dh=network_data_dict[network]['H'],
                 dp=network_data_dict[network]['P'])
             network_res.append([hp_test_res, corr_test_res])
-            p_values_before_fdr.append(hp_test_res['pvalue'])
+            p_values_before_fdr.append(hp_test_res['pvalue_fdr'])
 
         p_values_after_fdr = utils.fdr_correction(p_values_before_fdr)
         for i in range(len(network_res)):
@@ -125,16 +125,16 @@ class Metric:
             self.logging_writer.write(f'Network: {network}\n')
             hp_test_res, corr_test_res = network_res[i]
             self.logging_writer.write(str(hp_test_res) + '\n')
-            for res in corr_test_res:
-                self.logging_writer.write(str(res) + '\n')
+            # for res in corr_test_res:
+            #     self.logging_writer.write(str(res) + '\n')
 
         # whole head
         hp_test_res, corr_test_res = self._metric(h_data.mean(1),
                                                   p_data.mean(1))
         self.logging_writer.write(f'Whole Head\n')
         self.logging_writer.write(str(hp_test_res) + '\n')
-        for res in corr_test_res:
-            self.logging_writer.write(str(res) + '\n')
+        # for res in corr_test_res:
+        #     self.logging_writer.write(str(res) + '\n')
 
 
 if __name__ == '__main__':
@@ -146,7 +146,7 @@ if __name__ == '__main__':
     metric.measure_metric('modularity')
     metric.measure_metric('community_num')
     metric.measure_metric('community_size')
-    metric.measure_metric('stationarity')
+    # metric.measure_metric('stationarity')
 
     metric.measure_other_metric('flexibility')
     metric.measure_other_metric('cohesion')

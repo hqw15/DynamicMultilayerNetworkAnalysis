@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repository serves as a dedicated tool for the processing of results obtained from the [multilayer community network(GenLouvain)](https://github.com/GenLouvain/GenLouvain). It offers a range of metrics and analyses, encompassing modularity, module size, module number, stationarity, flexibility, cohesion, and disjointedness. Moreover, the tool computes the variations in these metrics between Patients and Healthy Controls (HCs) and calculates the correlation of these metrics with clinical medical scores in the Patients.
+This repository serves as a dedicated tool for the processing of results obtained from the [multilayer community network(GenLouvain)](https://github.com/GenLouvain/GenLouvain). It offers a range of metrics and analyses, encompassing modularity, module size, module number, flexibility, cohesion, and disjointedness. Moreover, the tool computes the variations in these metrics between Patients and Healthy Controls (HCs) and calculates the correlation of these metrics with clinical medical scores in the Patients.
 
 ## Data
 
@@ -21,7 +21,7 @@ You have two options:
 
 Follow these steps to use the code:
 
-1. Run `python3 preprocessing.py`. This will generate results related to modularity, module size, module number, stationarity, flexibility, cohesion, and disjointedness for both Patients and HCs. The results will be saved in `/data/preprocess_result`.
+1. Run `python3 preprocessing.py`. This will generate results related to modularity, module size, module number, flexibility, cohesion, and disjointedness for both Patients and HCs. The results will be saved in `/data/preprocess_result`.
 
 2. Run `python3 main.py`. This will calculate the variations in the metrics obtained in step 1 between HCs and Patients. It will calculate the correlation of these metrics with clinical medical scores in the Patients. The results will be saved in `metric.txt`.
 
